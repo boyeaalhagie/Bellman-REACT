@@ -6,11 +6,9 @@ Sukhbir Singh [singhsu@msoe.edu]
 
 Vamsi Sudersanam [sudersanamv@msoe.edu]
 
-Class: CSC 3310 - Algorithms
+Class: CSC 3310 - Algorithms 
 
-🌐 **Website**: https://airpath.netlify.app/
-
-📌 **Project Overview**
+📌 ## **Project Overview**
 
 The Shortest Flight Path Algorithm is a web-based application designed to compute the optimal flight route between two airports based on multiple factors like distance, layovers, and potential extensions for time and cost considerations. The algorithm leverages the Bellman-Ford algorithm to calculate the shortest path and integrates an interactive user interface for validation and visualization of flight paths.
 
@@ -32,13 +30,6 @@ npm install
 node app.js
 ```
 This will start the backend on `localhost:5000`.
-
-## Team (names, contact info)
-- [Alhagie Boye](mailto:nutinip@msoe.edu)
-- [Leigh Goetsch](mailto:goetschm@msoe.edu)
-- [Alhagie Boye](mailto:boyea@msoe.edu)
-- [Evan Roegner](mailto:roegnere@msoe.edu)
-- [Joseph Barganz](mailto:barganzj@msoe.edu)
 
 ## Credits/Acknowledgements
 
