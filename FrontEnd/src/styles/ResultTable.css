@@ -1,0 +1,83 @@
+.result-table {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  border-color: #333;
+}
+
+.result-table h2 {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(163, 197, 210);
+  border-bottom: 1px solid #ddd;
+  font-size: 1.5rem;
+  border-color: #333;
+}
+
+.table-container {
+  max-height: 300px;
+  /* Make the table scrollable */
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #f4f4f4;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+tbody {
+  background-color: white;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.filters {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.filters label {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+.details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.details ul li {
+  margin: 5px 0;
+  color: #444;
+}
+
+.details strong {
+  color: #333;
+}

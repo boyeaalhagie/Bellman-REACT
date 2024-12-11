@@ -1,0 +1,45 @@
+body {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: white;
+}
+
+.navbar {
+  background-color: rgb(163, 197, 210);
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 12rem;
+
+}
+
+.container {
+  margin-top: -4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center the container horizontally */
+  align-items: center;
+  /* Center the container vertically */
+
+  margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.form-section {
+  flex: 1;
+  gap: 1rem;
+  width: 50%;
+  height: 23rem;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.result-section {
+  width: 80%;
+  height: 23rem;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}

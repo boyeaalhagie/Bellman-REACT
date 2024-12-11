@@ -1,0 +1,27 @@
+.dropdown-container {
+  margin-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.dropdown-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.dropdown-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.dropdown-select:focus {
+  border-color: rgb(163, 197, 210);
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
