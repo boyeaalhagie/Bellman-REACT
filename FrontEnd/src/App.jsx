@@ -30,7 +30,7 @@ function App() {
         return airport
             ? { lat: airport.LAT, lng: airport.LONG }
             : null;
-    }).filter(Boolean); // Remove null values
+    }).filter(Boolean); 
 
     return (
         <>
