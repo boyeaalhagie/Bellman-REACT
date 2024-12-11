@@ -58,7 +58,7 @@ function App() {
                 </div>
                 
             </div>
-            <LoadScript googleMapsApiKey="AIzaSyAWKY1m0h2NlZh6_WBgowVA87u516kWVfQ">
+            <LoadScript googleMapsApiKey={process.env.GOOGLE_MAPS_API_KEY}>
                 {(selectedRouteCoordinates || routeResults?.userRoute?.route) && (
                     <Map 
                         route={selectedRouteCoordinates || 
